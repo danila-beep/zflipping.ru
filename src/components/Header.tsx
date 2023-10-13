@@ -12,15 +12,15 @@ const Header: FC<{ scrollListener?: boolean }> = (props) => {
         const link = () => {
             switch (navEl.title) {
                 case "Главная":
-                    return "/";
+                    return "/zflipping.ru";
                 case "О компании":
-                    return "/about";
+                    return "/zflipping.ru/about";
                 case "Наши обьекты":
-                    return "/property";
+                    return "/zflipping.ru/property";
                 case "Контакты":
-                    return "/contactUs";
+                    return "/zflipping.ru/contactUs";
                 default:
-                    return "/404";
+                    return "/zflipping.ru/404";
             }
         };
 
@@ -33,15 +33,15 @@ const Header: FC<{ scrollListener?: boolean }> = (props) => {
                 {navEl.subLinks && (
                     <div>
                         {navEl.subLinks.map((subNav) => {
-                            if (window.location.pathname !== "/") {
+                            if (window.location.pathname !== "/zflipping.ru") {
                                 return (
-                                    <Link key={subNav.href} to={`/#${subNav.href}`} tabIndex={1}>
+                                    <Link key={subNav.href} to={`/zflipping.ru#${subNav.href}`} tabIndex={1}>
                                         {subNav.title}
                                     </Link>
                                 );
                             } else {
                                 return (
-                                    <a key={subNav.href} href={`#${subNav.href}`} tabIndex={1}>
+                                    <a key={subNav.href} href={`/zflipping.ru#${subNav.href}`} tabIndex={1}>
                                         {subNav.title}
                                     </a>
                                 );

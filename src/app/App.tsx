@@ -12,15 +12,15 @@ function App() {
     return (
         <div className="App">
             <Routes>
-                <Route path="/" element={<MainPage />} />
-                <Route path="/property" element={<PropertiesPage />} />
-                <Route path="/about" element={<AboutPage />} />
+                <Route path="/zflipping.ru" element={<MainPage />} />
+                <Route path="/zflipping.ru/property" element={<PropertiesPage />} />
+                <Route path="/zflipping.ru/about" element={<AboutPage />} />
                 <Route
-                    path="/contactUs"
+                    path="/zflipping.ru/contactUs"
                     element={<ContactPage />}
                 />
                 <Route
-                    path="/property/:id"
+                    path="/zflipping.ru/property/:id"
                     element={<PropertyPageRework />}
                 />
             </Routes>

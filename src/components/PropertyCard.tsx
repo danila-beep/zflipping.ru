@@ -50,7 +50,7 @@ const PropertyCard: FC<PropertyCardPropsType> = (props) => {
                     </p>
                     <p>{props.realizationTime}</p>
                 </div>
-                <NavLink to={`/kworkInvest/property/${props.id}`}>
+                <NavLink to={`/zflipping.ru/property/${props.id}`}>
                     <FlareButton>Подробнее</FlareButton>
                 </NavLink>
             </ActionContainer>

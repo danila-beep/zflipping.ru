@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zflipping.ru/static/css/main.d1a5251a.css",
-    "main.js": "/zflipping.ru/static/js/main.1f0f7f5a.js",
+    "main.js": "/zflipping.ru/static/js/main.4bad93f2.js",
     "static/js/787.fbb40bb6.chunk.js": "/zflipping.ru/static/js/787.fbb40bb6.chunk.js",
     "static/media/comandImage.jpg": "/zflipping.ru/static/media/comandImage.f1186ad6e6ff5bd28bfe.jpg",
     "static/media/moneyImage.jpg": "/zflipping.ru/static/media/moneyImage.b7b6fef72918f0669baf.jpg",
@@ -35,11 +35,11 @@
     "static/media/logo_1.svg": "/zflipping.ru/static/media/logo_1.448810464ee9ed1e682d0029ec868466.svg",
     "index.html": "/zflipping.ru/index.html",
     "main.d1a5251a.css.map": "/zflipping.ru/static/css/main.d1a5251a.css.map",
-    "main.1f0f7f5a.js.map": "/zflipping.ru/static/js/main.1f0f7f5a.js.map",
+    "main.4bad93f2.js.map": "/zflipping.ru/static/js/main.4bad93f2.js.map",
     "787.fbb40bb6.chunk.js.map": "/zflipping.ru/static/js/787.fbb40bb6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1a5251a.css",
-    "static/js/main.1f0f7f5a.js"
+    "static/js/main.4bad93f2.js"
   ]
 }
